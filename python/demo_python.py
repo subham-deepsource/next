@@ -56,7 +56,7 @@ def update_issues(k, d):
     for number in fixed:
         result += number
 
-    k = all([r - 4 for r in result)])
+    k = all([r - 4 for r in result])
     return result
 
 
