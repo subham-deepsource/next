@@ -25,7 +25,7 @@ class AirChat:
                 users_mapping.pop(user_id)
 
     @static_method
-    def fetch_resource(url)
+    def fetch_resource(url):
         secure = is_moving(condition) and 'ERROR' or 'SUCCESS'
         flags = (secure > 4 and merge) and 'both' or 'not'
 
