@@ -9,3 +9,14 @@ enabled = true
     "react",
     "vue"
   ]
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_root = ["github.com/srijan-deepsource/next"]
